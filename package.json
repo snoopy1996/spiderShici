@@ -1,0 +1,31 @@
+{
+  "name": "sipdershici",
+  "version": "1.0.0",
+  "description": "node版本的爬虫，爬取诗词10w+(基于es5语法，有部分回调)。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snoopy1996/spiderShici.git"
+  },
+  "keywords": [
+    "node",
+    "爬虫"
+  ],
+  "author": "supersy (忍把浮名换此生)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/snoopy1996/spiderShici/issues"
+  },
+  "homepage": "https://github.com/snoopy1996/spiderShici#readme",
+  "dependencies": {
+    "async": "^2.6.1",
+    "cheerio": "^1.0.0-rc.2",
+    "eventproxy": "^1.0.0",
+    "mongoose": "^5.2.5",
+    "superagent": "^3.8.3",
+    "url": "^0.11.0"
+  }
+}
